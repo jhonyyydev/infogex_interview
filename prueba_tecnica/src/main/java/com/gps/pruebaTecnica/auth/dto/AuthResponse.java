@@ -16,9 +16,10 @@ public class AuthResponse {
         this.token = token;
     }
 
-    public AuthResponse(String token,String message) {
-        this.token = null;
+    public AuthResponse(String token, String message) {
+        this.token = token;
         this.message = message;
     }
+
 
 }

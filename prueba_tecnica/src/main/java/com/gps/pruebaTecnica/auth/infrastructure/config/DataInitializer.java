@@ -41,7 +41,7 @@ public class DataInitializer {
             if (!userExists) {
                 User adminUser = new User();
                 adminUser.setUsername("admin");
-                adminUser.setPassword("$2a$12$9R4D3LofT5bVmIo2dvy6DuqwQzAn.I0OlzPkftGfKfqkffArDimZS");
+                adminUser.setPassword("$2a$12$KlRsIh6JKvngX3RLOIKICeaOFfAxXEcB/sFVx5fZylISiLGZOsO8e");
                 adminUser.setEmail("admin@gerprosol.com");
                 adminUser.setFirstName("Administrador");
                 adminUser.getRoles().add(adminRole);
