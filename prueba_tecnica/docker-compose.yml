@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: pruebaTecnica
+    environment:
+      POSTGRES_DB: prueba
+      POSTGRES_USER: prueba
+      POSTGRES_PASSWORD: prueba123
+    ports:
+      - "5437:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+
+volumes:
+  postgres_data:
