@@ -54,7 +54,6 @@ public class DisabilityService {
 
         Disability savedDisability = disabilityRepository.save(disability);
 
-        // Registrar el historial de estado inicial
         StatusHistory initialStatus = new StatusHistory(
                 savedDisability,
                 null,
